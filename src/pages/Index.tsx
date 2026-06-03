@@ -9,6 +9,7 @@ import StoriesSection from "@/components/StoriesSection";
 import JourneySection from "@/components/JourneySection";
 import ImpactSection from "@/components/ImpactSection";
 import TeamSection from "@/components/TeamSection";
+import GuideChat from "@/components/GuideChat";
 
 const Index = () => {
   const location = useLocation();
@@ -34,6 +35,7 @@ const Index = () => {
       <ImpactSection />
       <StatsSection />
       <TeamSection />
+      <GuideChat />
     </div>
   );
 };
